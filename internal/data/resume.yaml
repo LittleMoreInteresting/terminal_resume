@@ -1,0 +1,122 @@
+name: "张三"
+title: "全栈工程师"
+location: "中国 · 北京"
+email: "zhangsan@example.com"
+github: "github.com/zhangsan"
+website: "zhangsan.dev"
+
+about:
+  summary: "热爱技术的全栈开发者，专注于构建高性能、可扩展的分布式系统。拥有5年后端开发经验，对云原生技术和开源社区充满热情。"
+  details:
+    - "擅长 Go、Rust、TypeScript 等现代编程语言"
+    - "熟悉 Kubernetes、Docker 等云原生技术栈"
+    - "积极参与开源社区，多个项目的核心贡献者"
+    - "喜欢探索新技术，热衷于技术分享和写作"
+
+experience:
+  - company: "字节跳动"
+    role: "高级后端工程师"
+    period: "2022.03 - 至今"
+    location: "北京"
+    highlights:
+      - "负责核心业务系统的架构设计与开发，日均 QPS 超过 100 万"
+      - "主导微服务架构升级，将单体应用拆分为 50+ 微服务"
+      - "设计并实现高可用缓存系统，P99 延迟降低 60%"
+      - "培养团队 5 名初级工程师，建立代码审查和技术分享机制"
+
+  - company: "美团"
+    role: "后端开发工程师"
+    period: "2019.07 - 2022.02"
+    location: "北京"
+    highlights:
+      - "参与外卖订单系统核心模块开发，服务千万级日活用户"
+      - "优化数据库查询性能，核心接口响应时间减少 45%"
+      - "开发内部 RPC 框架，被 3 个团队采纳使用"
+      - "获得 2021 年度优秀员工称号"
+
+  - company: "阿里巴巴"
+    role: "Java 开发工程师（实习）"
+    period: "2018.06 - 2018.09"
+    location: "杭州"
+    highlights:
+      - "参与淘宝商品详情页性能优化项目"
+      - "学习大型互联网公司的工程实践和开发流程"
+
+skills:
+  languages:
+    - "Go (精通)"
+    - "Rust (熟练)"
+    - "TypeScript (熟练)"
+    - "Python (熟练)"
+    - "Java (熟悉)"
+    - "C/C++ (了解)"
+  frameworks:
+    - "Gin"
+    - "Echo"
+    - "React"
+    - "Vue.js"
+    - "gRPC"
+    - "Docker"
+    - "Kubernetes"
+  tools:
+    - "Linux"
+    - "Git"
+    - "Vim"
+    - "VS Code"
+    - "DataGrip"
+    - "Postman"
+    - "K8s"
+  others:
+    - "Microservices"
+    - "Distributed Systems"
+    - "CI/CD"
+    - "TDD"
+    - "Agile"
+
+projects:
+  - name: "Go-Cache"
+    description: "高性能分布式缓存系统，兼容 Redis 协议"
+    techStack:
+      - "Go"
+      - "Raft"
+      - "gRPC"
+      - "Docker"
+    url: "github.com/zhangsan/go-cache"
+    highlights:
+      - "支持集群模式和主从复制，数据一致性采用 Raft 算法"
+      - "单机 QPS 达到 15 万，内存占用比 Redis 降低 20%"
+      - "GitHub Stars: 2.3k，被多家公司用于生产环境"
+
+  - name: "Terminal Resume"
+    description: "基于 SSH 的交互式简历终端应用"
+    techStack:
+      - "Go"
+      - "Wish"
+      - "Bubble Tea"
+      - "Lipgloss"
+    url: "github.com/zhangsan/ssh-resume"
+    highlights:
+      - "支持通过 SSH 直接访问，无需浏览器"
+      - "采用 TUI 设计，提供沉浸式的终端体验"
+      - "开源项目，获得 500+ Stars"
+
+  - name: "LogInsight"
+    description: "轻量级日志收集与分析平台"
+    techStack:
+      - "Go"
+      - "ClickHouse"
+      - "Vue.js"
+      - "WebSocket"
+    url: "github.com/zhangsan/loginsight"
+    highlights:
+      - "支持实时日志收集和关键字搜索，查询延迟 < 100ms"
+      - "内置可视化仪表盘，支持自定义告警规则"
+      - "日处理日志量超过 10TB"
+
+contact:
+  email: "zhangsan@example.com"
+  github: "github.com/zhangsan"
+  website: "zhangsan.dev"
+  linkedIn: "linkedin.com/in/zhangsan"
+  twitter: "@zhangsan_dev"
+  message: "欢迎通过邮件或 GitHub 与我联系！"
